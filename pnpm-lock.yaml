@@ -133,6 +133,10 @@ importers:
       prisma:
         specifier: ^6.13.0
         version: 6.13.0(typescript@5.8.3)
+    devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
 
   packages/typescript-config: {}
 
