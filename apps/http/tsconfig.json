@@ -1,6 +1,8 @@
 {"extends":"@repo/typescript-config/base.json",
 "compilerOptions": {
   "rootDir": "./src",
-  "outDir": "./dist"
+  "moduleResolution": "nodenext", // This is crucial for Node.js ES Module compatibility
+  "outDir": "./dist",
+  "module": "Nodenext", // This tells TSC to output ES Module syntax
 }
 }
